@@ -1,2 +1,7 @@
 ip:
   recentMinute:4
+server:
+  port: 8082
+spring:
+  application:
+    name: spring-cloud-service-email
