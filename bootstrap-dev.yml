@@ -6,10 +6,8 @@ spring:
   application:
     name: spring-cloud-service-email
   rabbitmq:
-    host: 192.168.20.152
-    port: 56720
-    username: admin
-    password: admin
+    host: 192.168.1.1
+    port: 5672
   cloud:
     config:
         #http://127.0.0.1:9006/main/spring-cloud-config-dev.yml
