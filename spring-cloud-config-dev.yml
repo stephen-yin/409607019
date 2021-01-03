@@ -1,5 +1,6 @@
 ip:
-  recent: 4
+  recentMinute: 4
+  recentTime: 10
 server:
   port: 8082
 spring:
