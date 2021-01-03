@@ -1,8 +1,15 @@
 ip:
   recentMinute: 4
   recentTime: 10
-server:
-  port: 8082
-spring:
-  application:
-    name: spring-cloud-service-email
+mysql:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://192.168.30.230:3306/zz_test?useUnicode=true&characterEncoding=utf8
+  username: dbuser2
+  password: zzy@XLD653
+mail:
+  server:
+    host: 192.168.1.1
+    port: 25
+    address: aaa@test.com
+    username: test
+    password: 123
